@@ -2,7 +2,7 @@
 
 Sistema inteligente de irrigação automatizada com foco em sustentabilidade, acessibilidade e impacto social.
 
-O projeto foi desenvolvido inicialmente como um protótipo para a FETEPS (Feira Tecnológica), mas tem potencial de ser implementado em hortas escolares, projetos sociais e sistemas de cultivo urbano.
+O projeto foi desenvolvido inicialmente como um protótipo para a FETEPS 2025 (Feira Tecnológica Paula Souza), mas tem potencial de ser implementado em hortas escolares, projetos sociais e sistemas de cultivo urbano.
 
 ## Tecnologias utilizadas
 
@@ -27,7 +27,7 @@ O projeto foi desenvolvido inicialmente como um protótipo para a FETEPS (Feira 
 1. Clone o repositório:
 ```bash
 git clone https://github.com/jairrogerr/Germinah.git
-cd germinah
+cd Germinah
 ```
 
 2. Instale as dependências:
@@ -41,7 +41,7 @@ npm start
 ```
 O app será servido em http://localhost:3000
 
-🧪 Para testar o PWA corretamente:
+Para testar o PWA corretamente:
 ```bash
 npm run build
 npx serve -s build

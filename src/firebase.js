@@ -6,12 +6,12 @@ import { getDatabase, ref, set, onValue } from 'firebase/database';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "YOUR KEY HERE",
-  authDomain: "YOUR PROJECT DOMAINS",
-  projectId: "YOUR PROJECT ID",
-  storageBucket: "YOUR PROJECT STORAGE",
-  messagingSenderId: "YOUR ID",
-  appId: "YOUR ID"
+  apiKey: "AIzaSyA25r-n78i0zGT439DCVfhI8F4Al9yTHyc",
+  authDomain: "germinahapp.firebaseapp.com",
+  projectId: "germinahapp",
+  storageBucket: "germinahapp.firebasestorage.app",
+  messagingSenderId: "298495461885",
+  appId: "1:298495461885:web:ed66661f6c351191a83194"
 };
 
 // Initialize Firebase

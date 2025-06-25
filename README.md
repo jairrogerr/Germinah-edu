@@ -47,17 +47,18 @@ npm run build
 npx serve -s build
 ```
 
-🔧 Configuração do Firebase
+## 🔧 Configuração do Firebase
+
 Para executar este projeto com seu próprio Firebase, siga os passos abaixo:
 
-1. Crie um projeto no Firebase
+### 1. Crie um projeto no Firebase
 Acesse: https://console.firebase.google.com/
 
 Clique em "Adicionar Projeto" e siga as instruções
 
 Dê um nome ao projeto (ex: Hortinteligente) e finalize a criação
 
-2. Ative o Firestore (Banco de Dados)
+### 2. Ative o Firestore (Banco de Dados)
 No painel do Firebase, vá até Firestore Database
 
 Clique em Criar banco de dados
@@ -66,7 +67,7 @@ Selecione o modo de segurança (modo de teste para desenvolvimento)
 
 Escolha a região e finalize
 
-3. Registre seu aplicativo Web
+### 3. Registre seu aplicativo Web
 Vá em Configurações do projeto (ícone de engrenagem) > Geral
 
 Role até a seção Seus apps
@@ -77,7 +78,7 @@ Dê um nome (ex: hortinteligente-web) e clique em Registrar app
 
 Copie as configurações fornecidas (o firebaseConfig)
 
-4. Configure seu arquivo .env
+### 4. Configure seu arquivo .env
 Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
 
 ```bash
@@ -102,7 +103,7 @@ REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
 REACT_APP_FIREBASE_APP_ID=
 ```
 
-5. Use as variáveis no firebaseConfig.js
+### 5. Use as variáveis no firebaseConfig.js
 No seu código, importe as variáveis do .env assim:
 
 ```bash
@@ -137,7 +138,7 @@ const firebaseConfig = {
 };
 ```
 
-6. Adicione o .env ao .gitignore
+### 6. Adicione o .env ao .gitignore
 No arquivo .gitignore, certifique-se de incluir:
 
 ```bash

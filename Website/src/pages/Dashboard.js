@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { database, ref, set, onValue } from './firebase';
-import './App.css'; // opcional, se tiver CSS
+import { database, ref, set, onValue } from '../firebase';
+import './Dashboard.css';
 
-function App() {
+function Dashboard() {
   const [bombaLigada, setBombaLigada] = useState(false);
   const [status, setStatus] = useState(false);
   const [temp, setTemp] = useState(0);
@@ -46,4 +46,4 @@ function App() {
   );
 }
 
-export default App;
+export default Dashboard;

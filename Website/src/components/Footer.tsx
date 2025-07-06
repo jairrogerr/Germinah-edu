@@ -119,7 +119,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center text-gray-400 mb-4 md:mb-0">
-              <span>© 2024 Germinah Edu. Licença MIT.</span>
+              <span>© 2025 Germinah Edu. Licença MIT.</span>
             </div>
             
             <div className="flex items-center text-gray-400">

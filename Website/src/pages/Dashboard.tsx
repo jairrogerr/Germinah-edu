@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { database, ref, set, onValue } from '../firebase';
-//import './Dashboard.css';
+import styles from './Dashboard.css'; 
 
 function Dashboard() {
   const [bombaLigada, setBombaLigada] = useState(false);

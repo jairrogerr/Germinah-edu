@@ -42,9 +42,7 @@ O aplicativo espera os seguintes campos no banco de dados:
 ```json
 {
   "sensor": {
-    "temperatura": 0,
-    "umidade": 0,
-    "bomba": "desligada"
+    "umidade": 0
   }
 }
 ````
@@ -111,14 +109,6 @@ npm start
 3. Clique no botão para testar a interação com a bomba.
 
 Se o protótipo estiver ligado e configurado com o mesmo banco, a bomba será ativada!
-
-## 🧩 Etapa (opcional): Resetar o status da bomba
-
-Você pode criar um botão extra ou usar o console do Firebase para mudar:
-
-```json
-"bomba": "ligada" → "desligada"
-```
 
 ## 🔐 Importante sobre segurança
 
